@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://segoschool.netlify.app/</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/index.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/funcionalidades.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/destacados.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/blog.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/login.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/contacto.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/usuarios.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/precios.html</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/bloge4</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/bloge3</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/bloge2</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://segoschool.netlify.app/bloge1</loc>
+  <lastmod>2020-10-07T02:49:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

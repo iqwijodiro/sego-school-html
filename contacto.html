@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEGO School - Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="contenedor contenido-header">
+            
+        <div id="nav-barra" class="nav-barra interna">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logoSEGOhorizontalmorado.png" alt="Logo SEGO">
+                </a>
+            </div>
+
+            
+            <div class="enlaces">
+                <div id="mobile-menu" class="mobile-menu" onclick="cambiarClase()">
+                    <a href="#navegacion">
+                        <div class="bars"></div>
+                    </a>
+                </div>
+                <nav id="navegacion" class="navegacion">
+                    <a href="index.html"><i class="fa fa-home"></i>Inicio</a>
+                    <a href="funcionalidades.html"><i class="fas fa-wrench"></i>Funcionalidades</a>
+                    <a href="destacados.html"><i class="fas fa-medal"></i></i>Lo que nos Destaca</a>
+                    <a href="precios.html"><i class="fas fa-gift"></i>Precios</a>
+                    <a href="blog.html"><i class="fas fa-lightbulb"></i>Blog</a>
+                    <a href="login.html" class="boton">Iniciar Sesión</a>
+                </nav>
+            </div>
+        </div>
+        <div class="contenido-inicio-i"></div>
+    </div>
+<main>
+    <div class="contenedor seccion">
+        <!-- Formularios de Contacto-->
+        <div class="contenido-form">
+            <h2 class="fw-700 centrar-texto">¿Deseas más información o activar nuestra versión gratuita?</h2>
+            <form class="contacto" action="">
+                <div class="col1">
+                    <label for="nombre"></label>
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido">
+
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Correo electrónico" required>
+
+                    <label for="telefono"></label>
+                    <input type="tel" id="telefono" placeholder="Teléfono" required>
+                    <label for="nombre"></label>
+                    <input type="text" id="pais" placeholder="País">
+                    
+                </div>
+
+                <div class="col2">
+                    <label for="opciones"></label>
+                    <select id="opciones">
+                        <option value="" disabled selected>-- Tipo de Institución --</option>
+                        <option value="primaria">Kinder - Educación Primaria</option>
+                        <option value="secundaria">Educación secundaria</option>
+                        <option value="kinprimsec">Kinder - Ed. primaria - Ed. secundaria</option>
+                        <option value="tecnico">Instituto técnico</option>
+                        <option value="universidad">Universidad</option>
+                        <option value="empresa">Empresa pública o privada</option>
+                        <option value="otro">Otros</option>
+                    </select>
+                    <label for="cantidad"></label>
+                    <input type="number" min="0" max="" step="1" placeholder="Cantidad de estudiantes">
+                    <label for="mensaje" style="text-align: center">Mensaje:</label>
+                    <textarea id="mensaje"></textarea>
+                </div>
+
+            </form>
+            <div class="centrar-elemento">
+                <input type="submit" value="Enviar" class="boton">
+            </div>
+        </div>
+    </div> <!-- Formularios de Contacto-->
+</main>
+
+<footer class="site-footer seccion">
+    <!-- Footer-->
+    <div class="contenedor contenedor-footer">
+        <div class="izq">
+            <p> <ul>
+                <li><span><strong>Costa Rica</strong></span></li>
+                <li>Edif. Gran Campo, Oficina No.6, Sabana Norte, San José.</li>
+                <li>Teléfonos: +506 70176705</li>
+            </ul>
+            </p>
+        </div>
+        <div class="centro">
+            <ul class="redes">
+                <li><i class="fab fa-whatsapp"></i></li>
+                <li><i class="fab fa-telegram-plane"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+            </ul>
+            <p class="centrar-texto">Correo electrónico:<br> atencion-cliente@segoschool.com</p>
+            <a href="contacto.html" class="boton">Contáctanos</a>
+            <nav class="navegacion-footer">
+                <a href="index.html">Inicio</a>
+                <a href="funcionalidades.html">Funcionalidades</a>
+                <a href="destacados.html">Lo que nos Destaca</a>
+                <a href="precios.html">Precios</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+        <div class="derecha">
+            <p> <ul>
+                <li><span><strong>Venezuela</strong></span></li>
+                <li>Av. Henry Ford, C.C. Boulevar Industrial, Oficina AM7, Valencia, Carabobo.</li>
+                <li>Teléfonos: +58 412 4407692</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="copy">
+        <p class="copyright">Todos los derechos reservados &copy; </p>
+    </div>
+</footer>
+        <script src="JS/app.js"></script>
+</body>
+</html>
